@@ -40,13 +40,13 @@ class Equipo {
     }
 }
 
-let gus = new Jugador('gusti', 'paz', '34', 'Defesa')
-let agu = new Jugador('agu','paz', '35', 'Medio')
-let max = new Jugador('maxi', 'paz', '36', 'Delantero')
-let titi = new Jugador('rodrigo', 'paz', '33', 'Portero')
-let marga = new Entrenador('Marga','Elsa','63','36')
+let luc = new Jugador('lucas', 'otamendi', '34', 'Defesa')
+let lea = new Jugador('leandro','paredes', '35', 'Medio')
+let lio = new Jugador('lionel', 'messi', '36', 'Delantero')
+let dibu = new Jugador('Dibu', 'Martinez', '33', 'Portero')
+let scaloni = new Entrenador('Lionel','Scaloni','39','10')
 
 
-let flia = new Equipo(marga, [gus,agu,max,titi])
+let seleccion = new Equipo(scaloni, [luc,lea,lio,dibu])
 
-console.log(flia.getDetalles())
+console.log(seleccion.getDetalles())
